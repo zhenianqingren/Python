@@ -65,7 +65,7 @@ print("Python".center(16,'-'))
 print("Python".center(16))
 # str.strip(chars) remove the listed characters that appear on the left and right from str
 print("=  Python=".strip(" =nP"))
-# str.join(iter)
+# str.join(iter) return string
 print(",".join('123456'))
 
 
