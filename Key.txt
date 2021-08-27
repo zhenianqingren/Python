@@ -1,0 +1,5 @@
+Ctrl + / 行注释
+Ctrl + Shift + / 块注释
+Ctrl + Alt + L 代码格式化
+Ctrl + R 替换
+Ctrl + Shift + R 全局替换
