@@ -1,0 +1,8 @@
+000 朱文旭 男 20 Chinese:60 Math:70 English:80
+001 住问需 男 20 Chinese:61 Math:71 English:81
+010 朱温徐 男 20 Chinese:62 Math:72 English:82
+011 主问序 男 20 Chinese:71 Math:35 English:44
+100 著问续 男 20 Chinese:16 Math:100 English:68
+101 朱雯序 男 20 Chinese:63 Math:73 English:83
+110 祝问需 男 20 Chinese:77 Math:88 English:99
+111 祝闻叙 男 20 Chinese:67 Math:87 English:77

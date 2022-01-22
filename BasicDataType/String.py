@@ -1,5 +1,7 @@
 # Representation of string
 # Single quotation marks represent a single line string
+import copy
+
 A = 'This is a line of string'
 # Double quotation marks represent a single line string
 B = "This is a line of string"
@@ -47,6 +49,7 @@ print(hex(425))
 # chr(u) u is Unicode encoding. It will return its corresponding character
 # ord(x) x is a character. It will return its corresponding Unicode encoding
 print(ord("a"))
+print('5'*3)
 
 # Tips: print(……,end="") when the content of end is empty, print won't wrap
 
@@ -82,9 +85,19 @@ print("{:=^20}".format("Python"))
 print("{:+<20}".format("Python"))
 print("{:->20}".format("Python"))
 
-print("{:,.2f}".format(123456.789))
+print("{:=^20.2f}".format(123456.789))
 print("{0:b} {0:c} {0:d} {0:o} {0:x} {0:x}".format(425))
 print("{0:e} {0:E} {0:f} {0:%}".format(3.14))
+
+
+
+
+d1={'1':1,'2':2,'3':3}
+d2=copy.deepcopy(d1)
+d2['4']=4
+print(d1)
+print(d2)
+
 
 
 

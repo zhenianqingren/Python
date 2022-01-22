@@ -22,9 +22,9 @@ def DayUp(df):
         else:
             result=result*(1+df)
     return result
-factor=0.1
-while round(DayUp(factor),2)<=round(day,2):
-    factor+=0.001
+factor=0.01
+while round(DayUp(factor),3)<=37.78:
+    factor+=0.0001
 print("{:.3f}".format(factor))
 
 

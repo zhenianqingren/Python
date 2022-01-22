@@ -22,6 +22,7 @@ print(creature[::-1])
 ls=[123,"Python",5.8]
 lt=ls
 print(lt)
+print(lt*5)
 # the operator "=" pass an address instead of creating a new list
 # ls[i]=x
 # del ls[i]

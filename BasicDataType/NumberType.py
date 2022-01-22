@@ -1,8 +1,10 @@
 print(0.2+0.1==0.3)
+print(1.0-0.01)
+print(round(40-0.001,3))
 # There is an indefinite mantissa in the decimal of the computer
 print(round(0.1+0.2,1)==0.3)
 # round(x,d) x represents data and d represents the number of bits intercepted
-
+print(round(0.03456,3))
 # complex number
 
 # operator
